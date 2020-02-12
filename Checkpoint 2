@@ -1,0 +1,23 @@
+int randomNumber = randomMaker.nextInt(100);
+int x = randomMaker.nextInt(100);
+System.out.println(randomNumber + " + " + x + " = " + (randomNumber-x));
+System.out.println(randomNumber + " - " + x + " = " + (randomNumber-x));
+
+String j = JOptionPane.showInputDialog("How many cups of flour do you have!");
+int num = Integer.parseInt(j);
+if(num<2) {
+JOptionPane.showMessageDialog(null, "Go buy more cups of flour!");
+}
+String f = JOptionPane.showInputDialog("How many people are you going to give cookies to!");
+int dumb = Integer.parseInt(f);
+if(dumb>30);
+JOptionPane.showMessageDialog(null, "You are going to have to bake two batches of cookies!");
+}
+String p = JOptionPane.showInputDialog("how many batches of cookies did you bake!");
+int gum = Integer.pareseInt(p);
+if(gum>2)
+JOptionPane.showMessageDialog(null, "You are lucky to have so many friends!");
+}
+printMessage();
+setName("k");
+int var = getNumber();
